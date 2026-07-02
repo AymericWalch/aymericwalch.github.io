@@ -5,6 +5,10 @@ theme: ["PaperMod"]
 
 disableThemeToggle: true
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 
 menu:
   main:
@@ -23,7 +27,6 @@ menu:
 
 
 params:
-
 
   # Theme: default of browser, with no toggle
   defaultTheme: auto
