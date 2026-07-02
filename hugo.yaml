@@ -1,0 +1,30 @@
+baseURL: https://example.org/
+title: Aymeric Walch
+theme: ["PaperMod"]
+
+
+disableThemeToggle: true
+
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 10
+    - name: Research
+      url: research
+      weight: 1
+    - name: Publications
+      url: publications 
+      weight: 1
+    - name: Teaching
+      url: teaching
+      weight: 1
+
+
+params:
+
+
+  # Theme: default of browser, with no toggle
+  defaultTheme: auto
+  disableThemeToggle: true
