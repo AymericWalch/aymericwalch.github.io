@@ -29,7 +29,7 @@ You can read more about these on my [research statement](/research/).
 I am also very interested in the following subjects, even though I do not have published works 
 on those yet.
 
-  - **Denotation semantics of domain specific languages**, such as probabilistic programming, automated differentiation, and synchronous programming.
+  - **Denotational semantics of domain specific languages**, such as probabilistic programming, automated differentiation, and synchronous programming.
 
   - **Call by push value** and its relation with Linear Logic.
 
