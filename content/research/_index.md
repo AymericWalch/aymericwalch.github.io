@@ -116,9 +116,7 @@ I would like to revisit the Taylor bundle functor in the setting of tangent cate
 
 ## 3. Solving ODEs lazily with Taylor expansion
 
-I recently hoped in a project started by [Xavier Thirioux](https://pagespro.isae-supaero.fr/xavier-thirioux/). The goal of this project is to compute approximations of solutions of ODEs using Taylor polynomials. The key feature of this approach is its **laziness**: the computation of the approximation will build up the Taylor polynomial coefficient by coefficient, meaning that this computation can be interrupted at any time to yield a usable solution.
-The solver that computes the coefficients of the Taylor polynomial iteratively can in fact be seen as 
-some kind of synchronous program. 
+I hoped in a project started by [Xavier Thirioux](https://pagespro.isae-supaero.fr/xavier-thirioux/). The goal of this project is to compute approximations of solutions of ODEs using Taylor polynomials. The key feature of this approach is its **laziness**: the computation of the approximation will build up the Taylor polynomial coefficient by coefficient, meaning that this computation can be interrupted at any time to yield a usable solution.
 
 This lazy paradigm is particularly well suited for embedded systems in which solutions have to be computed in real time 
 (to predict the trajectory of a plane for instance), and in which the available computational resources are limited. 
@@ -129,7 +127,6 @@ on fixed point iteration.
 
 ---
 
-I am currently trying to adapt the computation of the bounds to a method compatible with the lazy paradigm, and I am working with Xavier on a Rust implementation of the solver.
+I am currently working on this project with Xavier Thirioux and Christine Tasson, stay tuned for further development.
 
---- 
-
+---
